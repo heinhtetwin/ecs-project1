@@ -1,5 +1,5 @@
-# Use the official Node.js 14 Alpine image as the base image
-FROM node:18-alpine
+# Use the official Node.js 18 Alpine image as the base image, --platform is needed because of my apple M1 chip.
+FROM --platform=linux/amd64 node:18-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
