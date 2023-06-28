@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "http": "*",
-    "fs": "*"
+    "fs": "0.0.2"
   },
   "author": "Heinux",
   "license": "MIT"
